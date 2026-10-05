@@ -1,7 +1,20 @@
 {
- "synced_at": "2026-10-05T14:57:57Z",
+ "synced_at": "2026-10-05T15:39:56Z",
  "count": 6,
  "repos": [
+  {
+   "name": "FoysalAhammad",
+   "description": "Terminal-cyberpunk GitHub profile · embedded · android · lua · telegram",
+   "url": "https://github.com/FoysalAhammad/FoysalAhammad",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-10-05T15:39:44Z",
+   "updated_at": "2026-10-05T15:39:48Z"
+  },
   {
    "name": "portfolio",
    "description": "Portfolio site",
@@ -12,8 +25,8 @@
    "fork": false,
    "archived": false,
    "topics": [],
-   "pushed_at": "2026-10-05T14:16:06Z",
-   "updated_at": "2026-10-05T14:27:23Z"
+   "pushed_at": "2026-10-05T15:31:03Z",
+   "updated_at": "2026-10-05T15:31:06Z"
   },
   {
    "name": "agent24",
@@ -32,19 +45,6 @@
    ],
    "pushed_at": "2026-10-05T02:03:01Z",
    "updated_at": "2026-10-05T02:03:04Z"
-  },
-  {
-   "name": "FoysalAhammad",
-   "description": "Terminal-cyberpunk GitHub profile · embedded · android · lua · telegram",
-   "url": "https://github.com/FoysalAhammad/FoysalAhammad",
-   "homepage": "",
-   "language": "",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "topics": [],
-   "pushed_at": "2026-10-05T00:15:42Z",
-   "updated_at": "2026-10-05T00:15:45Z"
   },
   {
    "name": "WiFi-Repeater",
