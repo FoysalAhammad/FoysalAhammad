@@ -1,0 +1,94 @@
+{
+ "synced_at": "2026-10-05T14:57:57Z",
+ "count": 6,
+ "repos": [
+  {
+   "name": "portfolio",
+   "description": "Portfolio site",
+   "url": "https://github.com/FoysalAhammad/portfolio",
+   "homepage": "https://foysalahammad.github.io/portfolio/",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-10-05T14:16:06Z",
+   "updated_at": "2026-10-05T14:27:23Z"
+  },
+  {
+   "name": "agent24",
+   "description": "Agent 24 — autonomous AI coding & technical assistant for Android. Chat, plan, run tools, terminal, code editor and device control in one app.",
+   "url": "https://github.com/FoysalAhammad/agent24",
+   "homepage": "https://foysalahammad.github.io/agent24",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [
+    "agentic",
+    "ai-assistant",
+    "ai-tools",
+    "android"
+   ],
+   "pushed_at": "2026-10-05T02:03:01Z",
+   "updated_at": "2026-10-05T02:03:04Z"
+  },
+  {
+   "name": "FoysalAhammad",
+   "description": "Terminal-cyberpunk GitHub profile · embedded · android · lua · telegram",
+   "url": "https://github.com/FoysalAhammad/FoysalAhammad",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-10-05T00:15:42Z",
+   "updated_at": "2026-10-05T00:15:45Z"
+  },
+  {
+   "name": "WiFi-Repeater",
+   "description": "ESP32 NAT WiFi repeater / range extender",
+   "url": "https://github.com/FoysalAhammad/WiFi-Repeater",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-10-04T16:45:02Z",
+   "updated_at": "2026-10-04T16:43:42Z"
+  },
+  {
+   "name": "smarttrade",
+   "description": "Smart Trade — crypto swing-trading journal for Android. Live charts, trading signals, fee-aware P&L & multi-coin portfolio. Privacy-first: no accounts, no trackers.",
+   "url": "https://github.com/FoysalAhammad/smarttrade",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [
+    "android",
+    "binance",
+    "chart",
+    "crypto"
+   ],
+   "pushed_at": "2026-10-04T04:36:17Z",
+   "updated_at": "2026-10-04T04:36:19Z"
+  },
+  {
+   "name": "mobilerepair",
+   "description": "",
+   "url": "https://github.com/FoysalAhammad/mobilerepair",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-09-24T12:22:33Z",
+   "updated_at": "2026-09-24T12:22:33Z"
+  }
+ ]
+}

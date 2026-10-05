@@ -1,0 +1,42 @@
+{
+ "synced_at": "2026-10-05T14:57:57Z",
+ "count": 4,
+ "releases": [
+  {
+   "repo": "WiFi-Repeater",
+   "tag": "v1.0.0",
+   "name": "WiFi Repeater v1.0.0",
+   "url": "https://github.com/FoysalAhammad/WiFi-Repeater/releases/tag/v1.0.0",
+   "published_at": "2026-10-04T16:45:02Z",
+   "prerelease": false,
+   "draft": false
+  },
+  {
+   "repo": "agent24",
+   "tag": "v0.119.0",
+   "name": "Agent 24 v0.119.0",
+   "url": "https://github.com/FoysalAhammad/agent24/releases/tag/v0.119.0",
+   "published_at": "2026-10-04T04:53:54Z",
+   "prerelease": false,
+   "draft": false
+  },
+  {
+   "repo": "smarttrade",
+   "tag": "v1.1.2",
+   "name": "Smart Trade v1.1.2 - Drawer Fix & P&L Improvements",
+   "url": "https://github.com/FoysalAhammad/smarttrade/releases/tag/v1.1.2",
+   "published_at": "2026-10-04T02:10:53Z",
+   "prerelease": false,
+   "draft": false
+  },
+  {
+   "repo": "smarttrade",
+   "tag": "v1.0.0",
+   "name": "Smart Trade v1.0.0",
+   "url": "https://github.com/FoysalAhammad/smarttrade/releases/tag/v1.0.0",
+   "published_at": "2026-10-03T17:33:23Z",
+   "prerelease": false,
+   "draft": false
+  }
+ ]
+}
