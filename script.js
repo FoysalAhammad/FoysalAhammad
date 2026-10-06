@@ -251,7 +251,6 @@
       { name: 'portfolio', description: 'Portfolio site', url: 'https://github.com/FoysalAhammad/portfolio', language: 'HTML', stars: 0, pushed_at: '' },
       { name: 'smarttrade', description: 'Crypto swing-trading journal for Android.', url: 'https://github.com/FoysalAhammad/smarttrade', language: 'HTML', stars: 0, pushed_at: '' },
       { name: 'WiFi-Repeater', description: 'WiFi repeater firmware for ESP8266 / ESP32.', url: 'https://github.com/FoysalAhammad/WiFi-Repeater', language: '', stars: 0, pushed_at: '' },
-      { name: 'mobilerepair', description: 'Mobile repair helper tooling.', url: 'https://github.com/FoysalAhammad/mobilerepair', language: '', stars: 0, pushed_at: '' },
       { name: 'FoysalAhammad', description: 'GitHub profile README.', url: 'https://github.com/FoysalAhammad/FoysalAhammad', language: '', stars: 0, pushed_at: '' }
     ]
   };
