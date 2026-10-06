@@ -1,20 +1,7 @@
 {
- "synced_at": "2026-10-06T06:30:20Z",
+ "synced_at": "2026-10-06T18:27:54Z",
  "count": 4,
  "repos": [
-  {
-   "name": "FoysalAhammad",
-   "description": "Terminal-cyberpunk GitHub profile · embedded · android · lua · telegram",
-   "url": "https://github.com/FoysalAhammad/FoysalAhammad",
-   "homepage": "https://foysalahammad.github.io/FoysalAhammad/",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "topics": [],
-   "pushed_at": "2026-10-06T02:15:07Z",
-   "updated_at": "2026-10-06T02:15:12Z"
-  },
   {
    "name": "agent24",
    "description": "Agent 24 — autonomous AI coding & technical assistant for Android. Chat, plan, run tools, terminal, code editor and device control in one app.",
@@ -30,8 +17,21 @@
     "ai-tools",
     "android"
    ],
-   "pushed_at": "2026-10-05T23:39:02Z",
+   "pushed_at": "2026-10-06T07:50:46Z",
    "updated_at": "2026-10-05T02:03:04Z"
+  },
+  {
+   "name": "FoysalAhammad",
+   "description": "Terminal-cyberpunk GitHub profile · embedded · android · lua · telegram",
+   "url": "https://github.com/FoysalAhammad/FoysalAhammad",
+   "homepage": "https://foysalahammad.github.io/FoysalAhammad/",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "topics": [],
+   "pushed_at": "2026-10-06T06:30:23Z",
+   "updated_at": "2026-10-06T06:30:26Z"
   },
   {
    "name": "WiFi-Repeater",
