@@ -117,10 +117,13 @@ function initDrawer() {
    Ripple press feedback
    --------------------------------------------------------------------------- */
 function initRipple() {
-  const selector = '.btn, .icon-btn, .chip, .tech, .link-list a, .to-top';
+  const selector = '.btn, .icon-btn, .chip, .tech, .link-list a, .to-top, .drawer-nav a, .topnav a, .f-links a, .repo-go, .proj-links a';
   on(doc, 'pointerdown', (e) => {
     const host = e.target.closest?.(selector);
-    if (!host || reduce()) return;
+    if (!host) return;
+    /* Haptic feedback on every interactive element */
+    if (navigator.vibrate) navigator.vibrate(8);
+    if (reduce()) return;
     const rect = host.getBoundingClientRect();
     const size = Math.max(rect.width, rect.height) * 2.1;
     const span = doc.createElement('span');
