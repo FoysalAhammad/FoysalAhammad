@@ -1,16 +1,7 @@
 {
- "synced_at": "2026-10-10T06:01:18Z",
- "count": 4,
+ "synced_at": "2026-10-10T12:41:46Z",
+ "count": 3,
  "releases": [
-  {
-   "repo": "agent24",
-   "tag": "v0.120.0",
-   "name": "Agent 24 v0.120.0",
-   "url": "https://github.com/FoysalAhammad/agent24/releases/tag/v0.120.0",
-   "published_at": "2026-10-06T07:50:47Z",
-   "prerelease": false,
-   "draft": false
-  },
   {
    "repo": "WiFi-Repeater",
    "tag": "v1.0.0",
