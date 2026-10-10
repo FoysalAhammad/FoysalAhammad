@@ -1501,18 +1501,47 @@
     .menu-btn { display: inline-flex; }
   }
   @media (max-width: 860px) {
+    /* Reduce scanline intensity on mobile */
+    body::after { opacity: .25; }
+
     .topbar { top: 9px; left: 9px; right: 9px; }
     .topnav { display: none; }
     .menu-btn { display: inline-flex; }
     .brand-sub { display: none; }
-    .content { padding: calc(var(--topbar-h) + 40px) 16px 40px; }
+    .content { padding: calc(var(--topbar-h) + 36px) 16px 40px; }
     .about-grid { grid-template-columns: 1fr; }
     .stats { grid-template-columns: repeat(2, 1fr); }
-    .hero h1 { font-size: clamp(38px, 11vw, 52px); }
+    .hero h1 { font-size: clamp(36px, 10vw, 50px); }
+    .hero { gap: 28px; padding-top: 16px; }
+    .lead { font-size: 15.5px; }
+
+    /* Reduce brutalist shadows on mobile — they break at small sizes */
+    .topbar { box-shadow: 2px 2px 0 rgb(0 240 255 / .2); }
+    .card { box-shadow: 0 4px 16px rgb(0 0 0 / .3); }
+    .card:hover { box-shadow: 0 6px 24px rgb(0 0 0 / .4), 0 0 30px rgb(0 240 255 / .1); }
+    .stat { box-shadow: 2px 2px 0 rgb(0 240 255 / .1); }
+    .stat:hover { box-shadow: 3px 3px 0 rgb(0 240 255 / .2); }
+    .repo-card { box-shadow: 0 3px 12px rgb(0 0 0 / .25); }
+    .repo-card:hover { box-shadow: 0 5px 20px rgb(0 0 0 / .35), 0 0 20px rgb(0 240 255 / .1); }
+    .footer { box-shadow: 0 2px 12px rgb(0 0 0 / .2); }
+    .terminal { box-shadow: 0 4px 20px rgb(0 0 0 / .35); }
+    .drawer { box-shadow: -12px 0 40px rgb(0 0 0 / .4); }
+
+    /* Ensure touch targets ≥ 44px */
+    .icon-btn { width: 44px; height: 44px; }
+    .btn { min-height: 44px; padding: 11px 20px; }
+    .btn-sm { min-height: 40px; padding: 9px 14px; }
+    .topnav a { min-height: 44px; display: inline-flex; align-items: center; }
+    .repo-go { padding: 8px 0; min-height: 44px; display: inline-flex; align-items: center; }
+    .proj-links a { padding: 10px 0; min-height: 44px; display: inline-flex; align-items: center; }
+    .f-links a { padding: 10px 12px; min-height: 44px; display: inline-flex; align-items: center; }
+    .link-list a { padding: 12px 14px; min-height: 44px; }
+    .brand { min-height: 44px; display: inline-flex; align-items: center; }
+    .to-top { width: 44px; height: 44px; }
+
     .footer { margin-top: 44px; }
-    .footer-main { padding: 13px 16px; }
-    .footer-bar { padding: 9px 16px; }
-    .f-links a { padding: 6px 9px; font-size: 12px; }
+    .footer-main { padding: 14px 16px; }
+    .footer-bar { padding: 10px 16px; }
     .sub-note { display: none; }
     .repo-grid, .release-grid { grid-template-columns: 1fr; }
   }
@@ -1522,32 +1551,64 @@
     .f-id b { font-size: 15px; }
     .f-status { display: none; }
     .footer-band-track span { font-size: clamp(24px, 8vw, 34px); }
-    .drawer-nav a { font-size: 15px; padding: 13px 14px; }
+    .drawer-nav a { font-size: 15px; padding: 14px 15px; min-height: 48px; }
+    .sec-head { margin: 52px 0 20px; }
+    .marquee { margin: 32px 0 6px; }
   }
   @media (max-width: 430px) {
     .topbar-inner { gap: 8px; padding: 0 10px 0 12px; }
-    .brand { font-size: 15px; gap: 8px; }
-    .brand-mark { width: 32px; height: 32px; border-radius: 3px; }
-    .icon-btn { width: 36px; height: 36px; border-radius: 3px; }
-    .btn { padding: 11px 18px; font-size: 13px; }
-    .stat { padding: 12px 8px; }
+    .brand { font-size: 15px; gap: 8px; min-height: 44px; }
+    .brand-mark { width: 36px; height: 36px; border-radius: 3px; }
+    .icon-btn { width: 44px; height: 44px; border-radius: 3px; }
+    .btn { padding: 12px 18px; font-size: 13px; min-height: 44px; }
+    .stat { padding: 14px 10px; }
     .stat dd { font-size: 10px; }
-    .sec-title { font-size: clamp(25px, 7.4vw, 30px); }
-    .hero h1 { font-size: clamp(34px, 10.4vw, 44px); }
-    .lead { font-size: 16px; }
+    .sec-title { font-size: clamp(24px, 7vw, 28px); }
+    .hero h1 { font-size: clamp(32px, 9.5vw, 42px); }
+    .lead { font-size: 15px; }
     .footer-main { padding: 12px 14px; }
-    .footer-bar { padding: 9px 14px; }
-    .f-links a { padding: 6px 8px; font-size: 11px; }
-    .link-list a { padding: 10px 11px; gap: 7px; font-size: 13px; }
-    .link-list a .i-sm { width: 14px; height: 14px; }
+    .footer-bar { padding: 10px 14px; }
+    .f-links a { padding: 10px 10px; font-size: 12px; min-height: 44px; }
+    .link-list a { padding: 12px 12px; gap: 8px; font-size: 13px; min-height: 44px; }
+    .link-list a .i-sm { width: 15px; height: 15px; }
+    .card { padding: 18px; border-radius: 16px; }
+    .proj-card h3 { font-size: 18px; }
+    .contact-card { padding: 20px; }
+    .term-body { font-size: 12px; padding: 14px 14px 18px; min-height: 220px; }
+    .hero-badge { font-size: 11px; padding: 5px 12px; }
+    .hero-role { font-size: 13px; }
   }
   @media (max-width: 420px) {
-    .btn { width: 100%; }
+    .hero-actions, .contact-links { gap: 10px; }
+    .hero-actions .btn, .contact-links .btn { width: 100%; }
     .topbar-actions .btn-dark span { display: none; }
-    .topbar-actions .btn-dark { padding: 9px 11px; }
-    .stats { gap: 9px; }
+    .topbar-actions .btn-dark { padding: 10px 12px; min-height: 44px; }
+    .stats { gap: 10px; }
+    .stats .stat dt { font-size: 22px; }
   }
   @media (max-width: 340px) {
-    .hero-actions, .contact-links { gap: 9px; }
+    .hero-actions, .contact-links { gap: 8px; }
+    .stat dt { font-size: 20px; }
+  }
+
+  /* Mobile touch optimizations */
+  @media (hover: none) and (pointer: coarse) {
+    /* Remove 300ms tap delay */
+    * { touch-action: manipulation; }
+    /* Disable hover-only effects that get stuck on touch */
+    .card:hover { transform: none; box-shadow: 0 4px 16px rgb(0 0 0 / .3); }
+    .card:hover::before { opacity: 0; }
+    .stat:hover { transform: none; }
+    .repo-card:hover { transform: none; }
+    .btn:hover { transform: none; }
+    .btn:hover::after { left: -60%; }
+    .chip:hover { transform: none; box-shadow: none; }
+    .tech:hover { transform: none; box-shadow: none; }
+    .link-list a:hover { transform: none; box-shadow: none; }
+    .to-top:hover { transform: none; }
+    /* Cleaner tap highlight */
+    a, button, .card, .chip, .tech { -webkit-tap-highlight-color: transparent; }
+    /* Prevent double-tap zoom on interactive elements */
+    .btn, .icon-btn, .chip, .tech, a { touch-action: manipulation; }
   }
 }
